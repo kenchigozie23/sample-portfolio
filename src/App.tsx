@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "./index.css"
 import Home from './routes/Home'
 import Project from './routes/Project'

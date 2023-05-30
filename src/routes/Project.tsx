@@ -8,11 +8,11 @@ import Work from '../components/work'
 const Project = () => {
   return (
     <div>
-      <Navbar/>
-      <HeroImg2 heading='PROJECTS.' text=' My Masterpiece Collections'/>
-      <Work/>
-      <PricingCard/>
-      <Footer/>
+      <Navbar />
+      <HeroImg2 head='PROJECTS.' text=' My Masterpiece Collections' />
+      <Work />
+      <PricingCard />
+      <Footer />
     </div>
   )
 }
