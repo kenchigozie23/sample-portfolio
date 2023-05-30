@@ -1,6 +1,6 @@
-import React from 'react'
+
 import './WorkCardStyles.css'
-import proo from '../assets/project1.png'
+
 import { NavLink } from 'react-router-dom'
 function WorkCard(props) {
   return (

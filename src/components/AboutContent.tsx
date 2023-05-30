@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 import "./AboutContentStyles.css";
-import ken from "../assets/Ken.jpg";
+
 import react1 from "../assets/react1.jpg";
 import react2 from "../assets/react2.webp";
-
-import React from "react";
 
 function AboutContent() {
   return (

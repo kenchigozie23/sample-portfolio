@@ -1,6 +1,6 @@
 import "./HeroImg2Styles.css"
 
-import React, { Component } from 'react'
+import  { Component } from 'react'
 
 class HeroImg2 extends Component {
     render(){

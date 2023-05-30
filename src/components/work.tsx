@@ -1,8 +1,8 @@
-import React from 'react'
+// import React from 'react'
 import './WorkCardStyles.css'
-import proo from '../assets/project1.png'
-import { NavLink } from 'react-router-dom'
-import WorkCard from './WorkCard'
+// import proo from '../assets/project1.png'
+// import { NavLink } from 'react-router-dom'
+// import WorkCard from './WorkCard'
 import WorkCardData from './WorkCardData'
 function Work() {
   return (

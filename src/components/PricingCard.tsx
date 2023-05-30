@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./PricingCardStyles.css";
 import { Link } from "react-router-dom";
 

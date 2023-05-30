@@ -1,7 +1,6 @@
-import React from "react";
+
 import "./FooterStyles.css";
 import {
-  FaFacebook,
   FaGithub,
   FaHome,
   FaLinkedin,
