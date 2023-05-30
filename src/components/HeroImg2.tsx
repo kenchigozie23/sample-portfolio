@@ -3,9 +3,13 @@ import "./HeroImg2Styles.css"
 // import  { Component } from 'react'
 
 // import React from 'react'
+interface personProps{
 
+    head: string;
+    text: string;
+}
 
-function HeroImg2(props) {
+function HeroImg2(props: personProps) {
     return (
         <div className="hero-img">
             <div className="heading">
