@@ -31,7 +31,7 @@ function PricingCard() {
         <div className="card">
           <h3>- Bussiness -</h3>
           <span className="bar"></span>
-          <p className="btc">$ 4000</p>
+          <p className="btc">$ 2500</p>
           <p>- 5 Days -</p>
           <p>- 8 Pages -</p>
           <p>- Featured -</p>
