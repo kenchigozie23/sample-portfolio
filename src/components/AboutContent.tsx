@@ -18,7 +18,7 @@ function AboutContent() {
           <Link to="/contact">
             <button className="btn">contact</button>
           </Link>
-          <a href="/my_resume.pdf" download className="btn btn-light">
+          <a href="/my_resume.pdf" download = '/my_resume.pdf' className="btn btn-light">
             Resume
           </a>
         </div>
