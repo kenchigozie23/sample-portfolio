@@ -1,9 +1,9 @@
-.footer{
-    width: 100%;
-    padding: 6rem 0;
-    background-color: rgba(19, 19, 19, 0.8);
+.footer {
+  width: 100%;
+  padding: 3rem 0;
+  background-color: rgba(19, 19, 19, 0.8);
 }
-.footer-container{
+/* .footer-container{
     max-width: 1140px;
     margin: auto;
     display: grid;
@@ -44,9 +44,127 @@ p{
     font-size: 1.2rem;
 }
 
-@media screen and (max-width: 640px) {
-    .footer-container{
-        
-        grid-template-columns: 1fr;
-    }    
+*/
+/* @media screen and (max-width: 640px) {
+   .footer-container{
+       
+       grid-template-columns: 1fr;
+   }     */
+
+
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-gap: 40px;
 }
+
+.footer-container h2 {
+  color: white;
+  margin-bottom: 1.7rem;
+  font-weight: 750;
+  position: relative;
+}
+.footer-container h2::before {
+  content: "";
+  position: absolute;
+  background-color: #0ef;
+  width: 50px;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+}
+.main-about-u p {
+  font-size: 1.1rem;
+  line-height: 1.3;
+  color: #999;
+}
+.main-about-us-social {
+  display: inline-block;
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  gap: 1rem;
+  align-items: center;
+}
+.main-about-us-social .socials {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  border: 1px solid transparent;
+  background-color: #222;
+  border-radius: 0.3rem;
+}
+.main-about-us-social .socials:hover{
+  background-color: #0ef;
+  transition-duration: 300ms;
+  
+}
+.main-about-us-social .socials .twitter:hover{
+  color: black;
+}
+
+
+
+.quick-links ul li{
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+.quick-links ul li .link{
+  color: #999;
+
+}
+
+.quick-links ul li .link:hover{
+  color: whitesmoke;
+}
+.contact-info .location{
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.contact-info .location a{
+  color: #999;
+
+}
+.contact-info .location a:hover{
+  color: white;
+}
+
+.contact-info .location p{
+  color: #999;
+}
+.contact-info .location p:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.copy-right{
+  width: 100%;
+  text-align: center;
+  padding: 2rem 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:  black;
+ 
+
+}
+
+@media screen and (max-width: 640px) {
+  .footer-container{
+      
+      grid-template-columns: 1fr;
+      padding: 1rem;
+  }
+  .main-about-u p{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .copy-right{
+    padding: 2rem 1rem;
+
+  }
+} 

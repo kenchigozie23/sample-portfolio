@@ -39,7 +39,7 @@ export const Navbar = () => {
             </li>
         </ul>
         <div className='hamburger' onClick={handleClick}>
-          {toogle ?    <FaTimes size={20} style = {{color:"white"}}/> :  <FaBars size={20} style = {{color:"white"}}/>}  
+          {toogle ?    <FaTimes size={30} style = {{color:"white"}}/> :  <FaBars size={30} style = {{color:"white"}}/>}  
      
            
         </div>

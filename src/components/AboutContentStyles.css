@@ -18,6 +18,16 @@
     line-height: 1.4;
 }
 
+/* .about .left h1::before{
+    content: "";
+    position: absolute;
+    background-color: #0ef;
+    width: 90%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+} */
+
 .about .right{
     max-width: 700px
 
